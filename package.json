@@ -1,0 +1,12 @@
+{
+  "name": "@codexporer.io/expo-action-sheet",
+  "version": "1.0.0",
+  "main": "src/index.tsx",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "@codexporer.io/expo-app-theme": "*",
+    "@expo/react-native-action-sheet": "*",
+    "react-native-safe-area-context": "*"
+  }
+}
