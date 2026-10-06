@@ -1,11 +1,11 @@
 import React, { useCallback } from 'react';
 import {
     useActionSheet as useOriginalActionSheet,
-    ActionSheetOptions as OriginalActionSheetOptions
+    ActionSheetOptions as OriginalActionSheetOptions,
+    ActionSheetProvider as OriginalActionSheetProvider
 } from '@expo/react-native-action-sheet';
 import { useAppTheme } from '@codexporer.io/expo-app-theme';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { ActionSheetProvider as OriginalActionSheetProvider } from '@expo/react-native-action-sheet';
 
 type ActionSheetCallback = (i?: number) => void | Promise<void>;
 
